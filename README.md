@@ -1,2 +1,2 @@
-# Bootstrap
-This website is made while learning bootstrap
+# TinDog
+This website is made while learning bootstrap.
