@@ -1,9 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;1,400&display=swap');
+
 #title{
     background-color:#ff4c68;
     color: #fff;
 }
 h1{
-    font-family: 'Montserrat';
+    font-family: "Montserrat";
     font-weight:900; 
     font-size:3.5rem;
     line-height: 1.5;
@@ -13,11 +15,11 @@ h1{
 }
 
 body{
-    font-family: 'Montserrat';   
+    font-family: "Montserrat";   
     font-weight: 400; 
 }
 .navbar-brand{
-    font-family: 'ubuntu';
+    font-family: "ubuntu";
     font-size: 2.5rem;
     font-weight: bold;
 }
@@ -32,37 +34,78 @@ body{
     font-weight:light;
 }
 
+h2{
+    font-family:"Montserrat";
+    font-weight:bold; 
+    font-size:3rem;
+    line-height:1.5;
+}
+
+h3{
+    font-family: "Montserrat";
+    font-weight:700;
+}
+p{
+    color:#8f8f8f;
+}
+
 /* Features-Section */
 
 #features{
-    display:flex;
-    justify-content: center;
-    height:25rem;
+    padding: 7% 15%;
 }
-#left-box,#middle-box,#right-box{
-    margin: 6.25rem 4.375rem 6.25rem 4.375rem;
+
+.feature-box{
+    text-align:center;
+    padding:4.5%;
+}
+
+.icon{
+    color:#ef8172;
+    margin-bottom:1rem;
+}
+
+.icon:hover{
+    color:#ff4c68;
+}
+
+/* Testimonial-section */
+#testimonials{
+    background-color:#ef8172;
     text-align: center;
     
 }
-.heading{
-    font-family: 'Montserrat';
-    font-weight: 700; 
-    font-size: 1.5rem;
-    margin-top: 1rem;
-} 
-.fa-check-circle, .fa-bullseye, .fa-heart{
-    color:#ef8172;
+.testimonial-text{
+    color:#fff;
+}
+.testimonial-image{
+    border-radius:100%;
+    width:10%;
+    margin:20px;
+}
+.carousel-item{
+    padding:7% 15%;
+}
+#press{
+    background-color: #ef8172;
+    text-align:center;
+    padding-bottom:3px;
+}
+.padding-logo{
+    width:15%;
+    margin:20px 20px 50px;
 }
 
-.description{
-    color:#8f8f8f;
-    font-weight: 500;
-    
-}
-.paragraph-container{
-    width:15.625rem;
+/* Pricing Section */
+
+#pricing{
+    padding:100px;
+    text-align:center;
 }
 
+.pricing-column{
+    padding: 3% 2%;
+}
 
 
 /* Download Button */
