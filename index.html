@@ -20,6 +20,7 @@
   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script> 
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  
   <!-- Fontawesome -->
 
   <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
@@ -41,13 +42,13 @@
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav ml-auto">
             <li class="nav-item">
-                <a class="nav-link" href="">Contact</a>
+                <a class="nav-link" href="#footer">Contact</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="">Pricing</a>
+                <a class="nav-link" href="#pricing">Pricing</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="">Download</a>
+                <a class="nav-link" href="#cta">Download</a>
             </li>
         </ul>
       </div>
@@ -59,8 +60,8 @@
       <div class="row">
         <div class="col-lg-6 ">
           <h1>Meet new and interesting dogs nearby.</h1>
-          <button type="button" class="btn btn-dark btn-lg dwnld-btn"><i class="fab fa-apple"></i> Download</button>
-          <button type="button" class="btn btn-outline-light btn-lg dwnld-btn"><i class="fab fa-google-play"></i> Download</button>
+          <button type="button" class="btn btn-dark btn-lg dwnld-btn"><i class="fab fa-apple"></i>  Download</button>
+          <button type="button" class="btn btn-outline-light btn-lg dwnld-btn"><i class="fab fa-google-play"></i>  Download</button>
         </div>
         <div class="col-lg-6 ">
           <img id="iphone-img" src="images/iphone6.png" alt="iphone-mockup">
@@ -193,8 +194,6 @@
 
     </div>
 
-
-
   </section>
 
 
@@ -202,9 +201,10 @@
 
   <section id="cta">
 
-    <h3>Find the True Love of Your Dog's Life Today.</h3>
-    <button type="button">Download</button>
-    <button type="button">Download</button>
+    <h3 class="cta-text">Find the True Love of Your Dog's Life Today.</h3>
+    
+    <button class=" dwnld-btn btn btn-lg btn-dark" type="button"><i class="fab fa-apple"></i>  Download</button>
+    <button class=" dwnld-btn btn btn-lg btn-light" type="button"><i class="fab fa-google-play"></i>  Download</button>
 
   </section>
 
@@ -213,6 +213,10 @@
 
   <footer id="footer">
 
+    <i class=" footer-icon fab fa-twitter"></i>
+    <i class=" footer-icon fab fa-facebook-f"></i>
+    <i class=" footer-icon fab fa-instagram"></i>
+    <i class=" footer-icon fas fa-envelope"></i>
     <p>© Copyright 2018 TinDog</p>
 
   </footer>
